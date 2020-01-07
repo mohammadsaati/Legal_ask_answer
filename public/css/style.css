@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/fonts/OpenSans.eot');
+    src: url('/fonts/OpenSans.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/OpenSans.woff') format('woff'),
+    url('/fonts/OpenSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+   font-family: 'english';
+   src: url('fonts/english.otf'),
+   url('fonts/english.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+ }
+ 
+ 
+ 
+.body{
+     background: #ffffff;
+     font-family: "OpenSans";
+     font-size: 16px;
+ }
+ .background {
+     background-color: #000000;
+ }
+ .panel-box {
+  width: 100%;
+  height: 600px;
+  margin-left: 0px !important;
+  box-shadow: -10px -2px 10px #a2a0a0;
+  padding: 15px;
+  color: #000;
+ }
+ .box {
+  padding: 10px;
+  box-shadow: 3px -1px 4px #ccc;
+  border-radius: 10px;
+  margin-bottom: 35px;
+ }
+ .site-img{
+    opacity: 0.6;
+ }
+ .specioal-hr{
+    border: 2px solid #f2950b;
+    width: 242px;
+    margin-bottom: 35px;
+    margin-top: 5px;
+  }
+  .main-card {
+    height: 100vh;
+  }
+  .main-card-img { 
+    height: 100%;
+  }
+  /* #lawyer_info{
+    position: absolute;
+    margin-top: -53%;
+    height: 83.5%;
+    opacity: 0.0;
+    margin-left: 5px;
+    color: #fff;
+    width: 89.5%;
+    -webkit-transition: all 500ms cubic-bezier(1,-0.28,1,1.59);
+    -moz-transition: all 500ms cubic-bezier(1,-0.28,1,1.59);
+    -ms-transition:all 500ms cubic-bezier(1,-0.28,1,1.59);
+    -o-transition: all 500ms cubic-bezier(1,-0.28,1,1.59);
+    transition: all 500ms cubic-bezier(1,-0.28,1,1.59);
+}
+#lawyer_info:hover {
+    opacity: 0.8;
+}
+
+#about-com{
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .90;
+    color: #000;
+    background-attachment: fixed;
+  }
+  #about-com-row{
+    background-color: #7a8ef4;
+  opacity: .7;
+  color: #fffdfd;
+  padding: 75px;
+  } */
+  #about-com-row div form input{height: 55px;}
+  .footer{
+    background-color: #043c53;
+    height: 230px;
+    color: #fff;
+  }
+
